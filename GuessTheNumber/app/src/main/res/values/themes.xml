@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GuessTheNumber" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/navyblue</item>
+        <item name="colorPrimaryVariant">@color/darkblue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!--Secondary brand color -->
+        <item name="colorSecondary">@color/mustard</item>
+        <item name="colorSecondaryVariant">@color/orange</item>
+        <item name="colorOnSecundary">@color/black</item>
+
+        <!--Status Bar color -->
+        <item name="android:statusBarColor" tools:targetApi="1">?attr/colorPrimaryVariant</item>
+
+    </style>
+
+    <style name="Theme.GuessTheNumber" parent="Base.Theme.GuessTheNumber" />
+</resources>
